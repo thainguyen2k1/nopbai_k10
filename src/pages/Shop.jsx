@@ -115,7 +115,7 @@ export default function Shop() {
         onClick={() => {
           if (numberPage + 1 < totalPage) {
             setSkip(numberPage * limit);
-            setNumberPage(numberPage + 1);
+            setNumberPage(1 + +numberPage);
           }
         }}
       >
